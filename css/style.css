@@ -176,6 +176,25 @@ a {
     transform: translate(-50%,-50%);
 }
 
+/* .desktop i:hover{
+    transform: rotateY(360deg);
+    text-shadow: 0px 0px 1px yellowgreen;
+} */
+
+.desktop i{
+    transition: 0.6s;
+}
+
+.desktop i{
+    transition: 0.4s;
+    transition-delay: 0.2s;
+}
+
+.desktop:hover{
+    box-shadow: 0px 0px 7px yellowgreen inset,
+                0px 0px 7px yellowgreen;
+}
+
 .cloud{
     position: relative;
     width: 80px;
@@ -196,6 +215,20 @@ a {
     transform: translate(-50%,-50%);
 }
 
+.cloud i{
+    transition: 0.6s;
+}
+
+.cloud i{
+    transition: 0.4s;
+    transition-delay: 0.2s;
+}
+
+.cloud:hover{
+    box-shadow: 0px 0px 7px rgb(0, 157, 255) inset,
+                0px 0px 7px rgb(0, 157, 255);
+}
+
 .rocket{
     position: relative;
     width: 80px;
@@ -214,6 +247,20 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.rocket i{
+    transition: 0.6s;
+}
+
+.rocket i{
+    transition: 0.4s;
+    transition-delay: 0.2s;
+}
+
+.rocket:hover{
+    box-shadow: 0px 0px 7px rgb(176, 0, 0) inset,
+                0px 0px 7px rgb(176, 0, 0);
 }
 
 .left p,
