@@ -81,14 +81,11 @@ a {
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    transition: background-color .2s ease-in-out;
+    transition: All .5s ease-in-out;
 }
 
 .menu button:hover{
-    /* background-color: #ffffff; */
-    box-shadow: 0px 0px 5px #ffffff,
-    0px 0px 30px #ffffff,
-    0px 0px 90px #ffffff;
+    box-shadow: 0px 0px 10px #fff, 0px 0px 30px #fff;
 }
 
 .header{
