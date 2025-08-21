@@ -296,18 +296,6 @@ a {
     margin-bottom: 50px;
 }
 
-/* icons responsive */
-
-@media only screen and (max-width: 835px) {
-    .left,
-    .center,
-    .right {
-        width: 100%;
-        padding: 60px 0;
-        margin: 10px 0;
-    }
-}
-
 /* users style */
 
 .users-header h1{
@@ -524,4 +512,32 @@ textarea {
     font-size: 15px;
     margin-top: 12px;
     margin-left: 20px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .top-menu h2 {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+@media only screen and (max-width: 835px) {
+    .left,
+    .center,
+    .right {
+        width: 100%;
+        padding: 60px 0;
+        margin: 10px 0;
+    }
 }
